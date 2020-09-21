@@ -17,7 +17,7 @@ private static void getConnection() throws ClassNotFoundException, SQLException 
 		Class.forName("org.sqlite.JDBC");
 		c = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\hp840\\sqlite\\simple");
 //		System.out.println("database opened.....!");
-		}
+}
 
     	public static void main(String []args)throws Exception {
 /////////////////////////////////////////////////////////////////////////
